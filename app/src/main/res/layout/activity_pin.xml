@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/custom_background">
+
+    <EditText
+        android:id="@+id/pinEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="24dp"
+        android:hint="Введите пин-код"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/enterButton"
+        android:layout_width="193dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/pinEditText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="117dp"
+        android:text="Войти"
+        android:textSize="18sp" />
+
+</RelativeLayout>
